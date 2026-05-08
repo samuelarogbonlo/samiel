@@ -13,6 +13,9 @@ bundle exec jekyll serve
 
 The site will be available at `http://127.0.0.1:4000`.
 
+Cloudflare Pages uses the Ruby version in `.ruby-version`. Keep it pinned to
+`3.2.2` unless the Jekyll dependency chain is upgraded.
+
 ## Editing
 
 - Homepage: `index.md`
