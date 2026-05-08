@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+  <title id="title">Samuel Arogbonlo profile placeholder</title>
+  <desc id="desc">A simple monochrome initials mark for Samuel Arogbonlo.</desc>
+  <rect width="320" height="320" fill="#f4f4f4"/>
+  <rect x="18" y="18" width="284" height="284" fill="none" stroke="#111" stroke-width="4"/>
+  <text x="160" y="177" text-anchor="middle" font-family="Courier New, Courier, monospace" font-size="74" fill="#111">SA</text>
+</svg>

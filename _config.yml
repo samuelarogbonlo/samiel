@@ -1,0 +1,28 @@
+title: Samuel Arogbonlo
+description: Personal website for Samuel Arogbonlo.
+url: "https://samiel.me"
+baseurl: ""
+
+author:
+  name: Samuel Arogbonlo
+  email:
+  github: samuelarogbonlo
+
+markdown: kramdown
+highlighter: rouge
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+permalink: /blog/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

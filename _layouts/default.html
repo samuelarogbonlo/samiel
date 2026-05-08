@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <main class="container">
+      <header class="site-header">
+        <h1 class="site-title">
+          <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        </h1>
+
+        <nav class="site-nav" aria-label="Primary">
+          <ul>
+            {% for item in site.data.nav %}
+              <li>
+                <a href="{{ item.link | relative_url }}">{{ item.name }}</a>
+                {% unless forloop.last %}/{% endunless %}
+              </li>
+            {% endfor %}
+          </ul>
+        </nav>
+      </header>
+
+      <hr>
+
+      {{ content }}
+    </main>
+  </body>
+</html>
