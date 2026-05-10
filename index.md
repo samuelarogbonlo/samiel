@@ -6,7 +6,7 @@ description: Personal website for Samuel Arogbonlo.
 
 ## About Me
 
-<img class="profile-picture" src="{{ '/assets/images/profile.svg' | relative_url }}" alt="Samuel Arogbonlo">
+<img class="profile-picture" src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Samuel Arogbonlo">
 
 I’m a Staff Software Engineer focused on infrastructure.
 
