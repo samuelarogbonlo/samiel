@@ -6,7 +6,7 @@ description: Personal website for Samuel Arogbonlo.
 
 ## About Me
 
-<img class="profile-picture" src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Samuel Arogbonlo">
+<img class="profile-picture" src="{{ '/assets/images/profile.png' | relative_url }}" alt="Samuel Arogbonlo">
 
 I’m a Staff Software Engineer focused on infrastructure.
 
@@ -36,19 +36,19 @@ I actively contribute to open source infrastructure projects; some of that work 
 
 ### Core blockchain
 
-[1] [ethereum/go-ethereum #32520](https://github.com/ethereum/go-ethereum/pull/32520). Add sub-trie iterator support for prefix and range-limited trie traversal.
+[1] Added sub-trie iterator support to go-ethereum so developers can scan only the part of Ethereum state they need, using prefix and range-limited traversal instead of reading unnecessary trie data. [Check code here](https://github.com/ethereum/go-ethereum/pull/32520)
 
 ### Cloud-native infrastructure
 
-[2] [kubernetes/ingress-nginx #12704](https://github.com/kubernetes/ingress-nginx/pull/12704). Add support for internal service specific labels.
+[2] Added internal service-specific label support to ingress-nginx so teams can route internal Kubernetes traffic without breaking the labels and configuration used for external services. [Check code here](https://github.com/kubernetes/ingress-nginx/pull/12704)
 
-[3] [prometheus-community/helm-charts #5318](https://github.com/prometheus-community/helm-charts/pull/5318). Add NetworkPolicy support for Alertmanager in kube-prometheus-stack.
+[3] Added NetworkPolicy support for Alertmanager in kube-prometheus-stack so monitoring deployments can restrict which pods are allowed to talk to Alertmanager in locked-down environments like banks and hospitals. [Check code here](https://github.com/prometheus-community/helm-charts/pull/5318)
 
-[4] [terraform-google-modules/terraform-google-kubernetes-engine #2239](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/pull/2239). Add support for custom monitoring metrics writer roles in the Google Kubernetes Engine Terraform module.
+[4] Added support for custom monitoring metrics writer roles in the Google Kubernetes Engine Terraform module, making it easier to provision GKE clusters with the right monitoring permissions through infrastructure as code. [Check code here](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/pull/2239)
 
 ### Security and secrets
 
-[5] [hashicorp/vault #29693](https://github.com/hashicorp/vault/pull/29693). Improve token renewal documentation consistency.
+[5] Improved Vault's token-renewal documentation so operators have clearer, more consistent guidance when keeping authentication tokens alive in production. [Check code here](https://github.com/hashicorp/vault/pull/29693)
 
 ### Independent projects
 
