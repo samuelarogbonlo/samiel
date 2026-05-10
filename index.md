@@ -50,16 +50,6 @@ I actively contribute to open source infrastructure projects; some of that work 
 
 [5] Improved Vault's token-renewal documentation so operators have clearer, more consistent guidance when keeping authentication tokens alive in production. [Check code here](https://github.com/hashicorp/vault/pull/29693)
 
-### Independent projects
-
-[6] [knetvis](https://github.com/samuelarogbonlo/knetvis). A Kubernetes NetworkPolicy visualization and testing tool for seeing what traffic rules allow before they go live.
-
-[7] [Midnight Ops Doctor](https://github.com/samuelarogbonlo/midnight-ops-doctor). A Claude skill for diagnosing Midnight Network operational issues inside Claude Code, Codex, and Cursor.
-
-[8] [Zero Compress](https://github.com/samuelarogbonlo/compression-layer2). A Rust compression project for reducing the cost of posting Layer 2 blockchain transaction data back to Ethereum.
-
-[9] [Multisig Wallet](https://github.com/samuelarogbonlo/multisig-wallet). A k-of-n smart contract wallet for shared control of on-chain assets and protocol operations.
-
 ## Security and Bug Reports
 
 [1] [Firedancer](https://docs.firedancer.io/) security report, 2026. Reported an integer-underflow bug in Firedancer's snapshot manifest parser through Immunefi. A malicious snapshot peer could make a Solana validator fail during snapshot boot, forcing it to retry or wait for another source. This was not a direct fund-theft bug, but validator availability bugs matter: in April 2026, Web3 lost more than $630M to hacks, and finding client-level issues early helps protect Solana infrastructure before failures can put users and funds at risk. [report](https://bugs.immunefi.com/dashboard/submission/75842) [PoC](https://gist.github.com/samuelarogbonlo/d128fe7f6590c0cf1088458eb17f2941)
