@@ -10,7 +10,7 @@ description: Personal website for Samuel Arogbonlo.
 
 I’m a Staff Software Engineer focused on infrastructure.
 
-Previously, I led central infrastructure reliability at [P2P.org](https://p2p.org/), a non-custodial staking provider with more than $10 billion in total value locked and institutional clients including BitGo, Ledger, Bybit, and Crypto.com.
+Previously, I led central infrastructure reliability at [P2P.org](https://p2p.org/), a non-custodial staking provider with more than $10 billion in total value locked and institutional clients including BitGo, Ledger, Bybit, and Crypto.com. I built platform systems that made day-to-day operations easier for developers and saved the team more than $200,000 per month. I also worked on validator and restaking infrastructure, and led a Solana MEV project that reduced latency for clients by 10x.
 
 Before P2P.org, I was an early engineer at [O(1) Labs](https://o1labs.org/), where I helped build and ship [Mina Protocol](https://minaprotocol.com/), a zero-knowledge blockchain that uses recursive zk-SNARKs to keep the chain small enough to verify efficiently. I also built infrastructure at [ChainSafe](https://chainsafe.io/), where my work spanned Filecoin and Ethereum, and at [Zeitgeist](https://zeitgeist.pm/), a Polkadot-based prediction market platform where I designed the production stack from the ground up.
 
@@ -38,23 +38,27 @@ I actively contribute to open source infrastructure projects; some of that work 
 
 [1] [ethereum/go-ethereum #32520](https://github.com/ethereum/go-ethereum/pull/32520). Add sub-trie iterator support for prefix and range-limited trie traversal.
 
-[2] [ethereum/go-ethereum #31600](https://github.com/ethereum/go-ethereum/pull/31600). Track block-hash to base-state-root mapping for the Verkle transition.
-
 ### Cloud-native infrastructure
 
-[3] [kubernetes/ingress-nginx #12704](https://github.com/kubernetes/ingress-nginx/pull/12704). Add support for internal service specific labels.
+[2] [kubernetes/ingress-nginx #12704](https://github.com/kubernetes/ingress-nginx/pull/12704). Add support for internal service specific labels.
 
-[4] [prometheus-community/helm-charts #5318](https://github.com/prometheus-community/helm-charts/pull/5318). Add NetworkPolicy support for Alertmanager in kube-prometheus-stack.
+[3] [prometheus-community/helm-charts #5318](https://github.com/prometheus-community/helm-charts/pull/5318). Add NetworkPolicy support for Alertmanager in kube-prometheus-stack.
 
-[5] [grafana/loki #15293](https://github.com/grafana/loki/pull/15293). Add support for indexing log attributes in OTLPConfig.
-
-[6] [open-telemetry/opentelemetry-collector #12816](https://github.com/open-telemetry/opentelemetry-collector/pull/12816). Fix confmap handling so original types are preserved when a slice of maps is unmarshalled.
+[4] [terraform-google-modules/terraform-google-kubernetes-engine #2239](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/pull/2239). Add support for custom monitoring metrics writer roles in the Google Kubernetes Engine Terraform module.
 
 ### Security and secrets
 
-[7] [hashicorp/vault #29701](https://github.com/hashicorp/vault/pull/29701). Make vault policy read output consistent with vault policy fmt.
+[5] [hashicorp/vault #29693](https://github.com/hashicorp/vault/pull/29693). Improve token renewal documentation consistency.
 
-[8] [hashicorp/vault #29693](https://github.com/hashicorp/vault/pull/29693). Improve token renewal documentation consistency.
+### Independent projects
+
+[6] [knetvis](https://github.com/samuelarogbonlo/knetvis). A Kubernetes NetworkPolicy visualization and testing tool for seeing what traffic rules allow before they go live.
+
+[7] [Midnight Ops Doctor](https://github.com/samuelarogbonlo/midnight-ops-doctor). A Claude skill for diagnosing Midnight Network operational issues inside Claude Code, Codex, and Cursor.
+
+[8] [Zero Compress](https://github.com/samuelarogbonlo/compression-layer2). A Rust compression project for reducing the cost of posting Layer 2 blockchain transaction data back to Ethereum.
+
+[9] [Multisig Wallet](https://github.com/samuelarogbonlo/multisig-wallet). A k-of-n smart contract wallet for shared control of on-chain assets and protocol operations.
 
 ## Security and Bug Reports
 
@@ -80,21 +84,21 @@ I actively contribute to open source infrastructure projects; some of that work 
 
 ## Articles and Blog
 
-[1] How Generative AI is Redefining Self-Service Capabilities in IDPs. Platform Engineering, March 2025. On using GenAI to compress developer onboarding inside internal developer platforms. [article](https://platformengineering.com/features/how-generative-ai-is-redefining-self-service-capabilities-in-idps/)
+[1] How We Reduced Onboarding Time From 2 Weeks to 2 Hours: A Platform Engineering Case Study. Platform Engineering, March 2025. **Selected for Platform Engineering's Best of 2025 series.** [article](https://platformengineering.com/features/how-we-reduced-onboarding-time-from-2-weeks-to-2-hours-a-platform-engineering-case-study/) [Best of 2025](https://platformengineering.com/features/how-we-reduced-onboarding-time-from-2-weeks-to-2-hours-a-platform-engineering-case-study-2/)
 
-[2] Security as a Mindset: How to Embed Security Into Cloud-Native Infrastructure Design. Platform Engineering, February 2025. Argues security should be a design primitive, not a late-stage audit step. [article](https://platformengineering.com/features/security-as-a-mindset-how-to-embed-security-into-cloud-native-infrastructure-design/)
+[2] How Generative AI is Redefining Self-Service Capabilities in IDPs. Platform Engineering, March 2025. On using GenAI to compress developer onboarding inside internal developer platforms. [article](https://platformengineering.com/features/how-generative-ai-is-redefining-self-service-capabilities-in-idps/)
 
-[3] Blockchains Are Fast Enough for Finance. What About Cross-Chain Settlement? Substack, April 2026. A response to a16z crypto's predictability thesis, arguing cross-chain settlement, not throughput, is the next real bottleneck for on-chain finance. [article](https://samuelarogbonlo451608.substack.com/p/blockchains-are-fast-enough-for-finance)
+[3] Security as a Mindset: How to Embed Security Into Cloud-Native Infrastructure Design. Platform Engineering, February 2025. Argues security should be a design primitive, not a late-stage audit step. [article](https://platformengineering.com/features/security-as-a-mindset-how-to-embed-security-into-cloud-native-infrastructure-design/)
 
-[4] Why Adaptor Signatures Are Difficult to Integrate in Ethereum. Substack, November 2025. Why elegant Bitcoin cryptography breaks on Ethereum's account model, and what that means for atomic swaps.
+[4] Blockchains Are Fast Enough for Finance. What About Cross-Chain Settlement? Substack, April 2026. A response to a16z crypto's predictability thesis, arguing cross-chain settlement, not throughput, is the next real bottleneck for on-chain finance. [article](https://samuelarogbonlo451608.substack.com/p/blockchains-are-fast-enough-for-finance)
 
-[5] Bare Metal vs Public Cloud For Blockchain Services. Medium, November 2024. Operator-grade take on infrastructure tradeoffs for production blockchain workloads. [article](https://samuelarogbonlo.medium.com/bare-metal-vs-public-cloud-for-blockchain-services-6874a3bfe95c)
+[5] Why Adaptor Signatures Are Difficult to Integrate in Ethereum. Substack, November 2025. Why elegant Bitcoin cryptography breaks on Ethereum's account model, and what that means for atomic swaps.
 
-[6] Demystifying Blockchain Infrastructure: Running Validators and Nodes. Medium, November 2024. A field guide from five years of running validator infrastructure in production. [article](https://samuelarogbonlo.medium.com/demystifying-blockchain-infrastructure-running-validators-and-nodes-0c2035560c41)
+[6] Bare Metal vs Public Cloud For Blockchain Services. Medium, November 2024. Operator-grade take on infrastructure tradeoffs for production blockchain workloads. [article](https://samuelarogbonlo.medium.com/bare-metal-vs-public-cloud-for-blockchain-services-6874a3bfe95c)
 
-[7] Securing libp2p Keys, Keypairs, and Key Hashes In Web3. Personal blog, February 2024. On key management and identity primitives in peer-to-peer networks. [article](https://samuelarogbonlo.hashnode.dev/securing-libp2p-keys-keypairs-and-key-hashes-in-web3-cm5l71dsi000c09l65jvcbhbj)
+[7] Demystifying Blockchain Infrastructure: Running Validators and Nodes. Medium, November 2024. A field guide from five years of running validator infrastructure in production. [article](https://samuelarogbonlo.medium.com/demystifying-blockchain-infrastructure-running-validators-and-nodes-0c2035560c41)
 
-[8] How We Reduced Onboarding Time From 2 Weeks to 2 Hours: A Platform Engineering Case Study. Platform Engineering, March 2025. Selected for Platform Engineering's Best of 2025 series. [article](https://platformengineering.com/features/how-we-reduced-onboarding-time-from-2-weeks-to-2-hours-a-platform-engineering-case-study/) [Best of 2025](https://platformengineering.com/features/how-we-reduced-onboarding-time-from-2-weeks-to-2-hours-a-platform-engineering-case-study-2/)
+[8] Securing libp2p Keys, Keypairs, and Key Hashes In Web3. Personal blog, February 2024. On key management and identity primitives in peer-to-peer networks. [article](https://samuelarogbonlo.hashnode.dev/securing-libp2p-keys-keypairs-and-key-hashes-in-web3-cm5l71dsi000c09l65jvcbhbj)
 
 ## Projects
 
@@ -104,7 +108,7 @@ I actively contribute to open source infrastructure projects; some of that work 
 
 * **[Zero Compress](https://github.com/samuelarogbonlo/compression-layer2).** Zero Compress is a Rust implementation for compressing Layer 2 blockchain transaction data before it is posted back to Ethereum. The project targets the biggest cost center for many rollups: data availability. Its benchmarked average compression is 73.6%, which would make high-volume L2 systems cheaper to operate at scale.
 
-* **[Midnight Ops Doctor](https://github.com/samuelarogbonlo/midnight-ops-doctor).** Midnight Ops Doctor is a diagnostic playbook for backend operations on Midnight Network. It helps developers debug wallet sync issues, deployment hangs, address confusion, and verification-key mismatches inside AI coding environments like Claude Code, Codex, and Cursor.
+* **[Midnight Ops Doctor](https://github.com/samuelarogbonlo/midnight-ops-doctor).** Midnight Ops Doctor is a Claude skill for backend operations on Midnight Network. It is the first Claude skill focused on diagnosing Midnight Network operational issues, helping developers debug wallet sync problems, deployment hangs, address confusion, and verification-key mismatches inside AI coding environments like Claude Code, Codex, and Cursor.
 
 * **[Multisig Wallet](https://github.com/samuelarogbonlo/multisig-wallet).** Multisig Wallet is a k-of-n smart contract wallet that requires multiple approved signers before sensitive actions can execute. It supports arbitrary contract calls and signer-set updates, making it a small but complete example of safer shared control for on-chain assets and protocol operations.
 

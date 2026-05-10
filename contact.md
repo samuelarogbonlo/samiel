@@ -7,8 +7,10 @@ permalink: /contact/
 
 ## Contact
 
-The best way to reach me is by email.
+* Email: sbayo971 [at] gmail [dot] com
 
-* Email: add email here
-* GitHub: [samuelarogbonlo](https://github.com/samuelarogbonlo)
-* Website: [samiel.me](https://samiel.me)
+<hr>
+
+## Social
+
+[1] [Twitter](https://x.com/samuelarogbonlo)
