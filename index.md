@@ -75,9 +75,9 @@ I enjoy teaching practical infrastructure topics, especially where cloud, AI, Li
 | 2025 | DevOps at the Crossroads: Enabling Secure Innovation Across AI, Web3 and Beyond | AI Security Engineers Community. [video](https://youtu.be/a4cfMB4wFNU) |
 | 2025 | Web3 infrastructure and engineering | Web3 Amsterdam. [profile](https://web3amsterdam.com/speaker/samuel-arogbonlo/) |
 | 2022 | Exposing Log-Metrics To Prometheus With Best Practice | Conf42 SRE. [video](https://www.youtube.com/watch?v=hQXBC2F8Lig) |
-|  | Cloud Meets Blockchain: The Role of Cloud Platforms in Decentralized Infrastructure | Cloud Lunch and Learn. [video](https://youtu.be/Hjy3IfTtrxs) |
-|  | Code and Cognition: Reducing Mental Overload In Modern GitHub Workflows | Internal workshop for GitHub employees |
-|  | Solving Simple Problems with AI and Web3 | ETH Enugu |
+| 2025 | Cloud Meets Blockchain: The Role of Cloud Platforms in Decentralized Infrastructure | Cloud Lunch and Learn. [video](https://youtu.be/Hjy3IfTtrxs) |
+| 2025 | Code and Cognition: Reducing Mental Overload In Modern GitHub Workflows | Internal workshop for GitHub employees |
+| 2025 | Solving Simple Problems with AI and Web3 | ETH Enugu |
 
 ## Articles and Blog
 
@@ -89,7 +89,7 @@ I write about platform engineering, blockchain infrastructure, security, and the
 | Mar 2025 | [How Generative AI is Redefining Self-Service Capabilities in IDPs](https://platformengineering.com/features/how-generative-ai-is-redefining-self-service-capabilities-in-idps/). On using GenAI to compress developer onboarding inside internal developer platforms. | Platform Engineering |
 | Feb 2025 | [Security as a Mindset: How to Embed Security Into Cloud-Native Infrastructure Design](https://platformengineering.com/features/security-as-a-mindset-how-to-embed-security-into-cloud-native-infrastructure-design/). Argues security should be a design primitive, not a late-stage audit step. | Platform Engineering |
 | Apr 2026 | [Blockchains Are Fast Enough for Finance. What About Cross-Chain Settlement?](https://samuelarogbonlo451608.substack.com/p/blockchains-are-fast-enough-for-finance). A response to a16z crypto's predictability thesis, arguing cross-chain settlement, not throughput, is the next real bottleneck for on-chain finance. | Substack |
-| Nov 2025 | Why Adaptor Signatures Are Difficult to Integrate in Ethereum. Why elegant Bitcoin cryptography breaks on Ethereum's account model, and what that means for atomic swaps. | Substack |
+| Nov 2025 | [Why Adaptor Signatures Are Difficult to Integrate in Ethereum](https://samuelarogbonlo451608.substack.com/p/why-adaptor-signatures-are-difficult). Why elegant Bitcoin cryptography breaks on Ethereum's account model, and what that means for atomic swaps. | Substack |
 | Nov 2024 | [Bare Metal vs Public Cloud For Blockchain Services](https://samuelarogbonlo.medium.com/bare-metal-vs-public-cloud-for-blockchain-services-6874a3bfe95c). Operator-grade take on infrastructure tradeoffs for production blockchain workloads. | Medium |
 | Nov 2024 | [Demystifying Blockchain Infrastructure: Running Validators and Nodes](https://samuelarogbonlo.medium.com/demystifying-blockchain-infrastructure-running-validators-and-nodes-0c2035560c41). A field guide from five years of running validator infrastructure in production. | Medium |
 | Feb 2024 | [Securing libp2p Keys, Keypairs, and Key Hashes In Web3](https://samuelarogbonlo.hashnode.dev/securing-libp2p-keys-keypairs-and-key-hashes-in-web3-cm5l71dsi000c09l65jvcbhbj). On key management and identity primitives in peer-to-peer networks. | Personal blog |
