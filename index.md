@@ -52,7 +52,7 @@ I actively contribute to open source infrastructure projects; some of that work 
 
 ## Security and Bug Reports
 
-[1] [Firedancer](https://docs.firedancer.io/) security report, 2026. Reported an integer-underflow bug in Firedancer's snapshot manifest parser through Immunefi. A malicious snapshot peer could make a Solana validator fail during snapshot boot, forcing it to retry or wait for another source. This was not a direct fund-theft bug, but validator availability bugs matter: in April 2026, Web3 lost more than $630M to hacks, and finding client-level issues early helps protect Solana infrastructure before failures can put users and funds at risk. [report](https://bugs.immunefi.com/dashboard/submission/75842) [PoC](https://gist.github.com/samuelarogbonlo/d128fe7f6590c0cf1088458eb17f2941)
+[1] [Firedancer](https://docs.firedancer.io/) security report, 2026. Reported an integer-underflow bug in Firedancer's snapshot manifest parser through Immunefi. A malicious snapshot peer could make a Solana validator fail during snapshot boot, forcing it to retry or wait for another source. In April 2026, Web3 lost more than $630M to hacks, and finding client-level issues early helps protect Solana infrastructure before failures can put users and funds at risk. [report](https://bugs.immunefi.com/dashboard/submission/75842) [PoC](https://gist.github.com/samuelarogbonlo/d128fe7f6590c0cf1088458eb17f2941)
 
 ## Teaching and Public Talks
 
