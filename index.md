@@ -66,39 +66,33 @@ I actively contribute to open source infrastructure projects; some of that work 
 
 ## Teaching and Public Talks
 
-[1] Speaker, MSCC Developers Conference, Mauritius, 2025. Building Unbreakable Linux Systems Through Strategic Failure. [event](https://conference.mscc.mu/speaker/8a2e498b-c50c-4078-a906-92d49e81c792)
+I enjoy teaching practical infrastructure topics, especially where cloud, AI, Linux, and blockchain systems meet. Most of my talks are aimed at helping engineers reason about production systems with less confusion and more confidence.
 
-[2] Speaker, MSCC Developers Conference, Mauritius, 2025. All About AI-Powered Linux Administration. [event](https://conference.mscc.mu/speaker/8a2e498b-c50c-4078-a906-92d49e81c792)
-
-[3] Speaker, AI Security Engineers Community, 2025. DevOps at the Crossroads: Enabling Secure Innovation Across AI, Web3 and Beyond. [video](https://youtu.be/a4cfMB4wFNU)
-
-[4] Speaker, Web3 Amsterdam, Amsterdam, 2025. [profile](https://web3amsterdam.com/speaker/samuel-arogbonlo/)
-
-[5] Speaker, Conf42 SRE, 2022. Exposing Log-Metrics To Prometheus With Best Practice. [video](https://www.youtube.com/watch?v=hQXBC2F8Lig)
-
-[6] Speaker, Cloud Lunch and Learn. Cloud Meets Blockchain: The Role of Cloud Platforms in Decentralized Infrastructure. [video](https://youtu.be/Hjy3IfTtrxs)
-
-[7] Internal workshop, GitHub. Code and Cognition: Reducing Mental Overload In Modern GitHub Workflows.
-
-[8] Speaker, ETH Enugu. Solving Simple Problems with AI and Web3.
+| Year | Topic | Venue |
+| --- | --- | --- |
+| 2025 | Building Unbreakable Linux Systems Through Strategic Failure | MSCC Developers Conference, Mauritius. [event](https://conference.mscc.mu/speaker/8a2e498b-c50c-4078-a906-92d49e81c792) |
+| 2025 | All About AI-Powered Linux Administration | MSCC Developers Conference, Mauritius. [event](https://conference.mscc.mu/speaker/8a2e498b-c50c-4078-a906-92d49e81c792) |
+| 2025 | DevOps at the Crossroads: Enabling Secure Innovation Across AI, Web3 and Beyond | AI Security Engineers Community. [video](https://youtu.be/a4cfMB4wFNU) |
+| 2025 | Web3 infrastructure and engineering | Web3 Amsterdam. [profile](https://web3amsterdam.com/speaker/samuel-arogbonlo/) |
+| 2022 | Exposing Log-Metrics To Prometheus With Best Practice | Conf42 SRE. [video](https://www.youtube.com/watch?v=hQXBC2F8Lig) |
+|  | Cloud Meets Blockchain: The Role of Cloud Platforms in Decentralized Infrastructure | Cloud Lunch and Learn. [video](https://youtu.be/Hjy3IfTtrxs) |
+|  | Code and Cognition: Reducing Mental Overload In Modern GitHub Workflows | Internal workshop for GitHub employees |
+|  | Solving Simple Problems with AI and Web3 | ETH Enugu |
 
 ## Articles and Blog
 
-[1] How We Reduced Onboarding Time From 2 Weeks to 2 Hours: A Platform Engineering Case Study. Platform Engineering, March 2025. **Selected for Platform Engineering's Best of 2025 series.** [article](https://platformengineering.com/features/how-we-reduced-onboarding-time-from-2-weeks-to-2-hours-a-platform-engineering-case-study/) [Best of 2025](https://platformengineering.com/features/how-we-reduced-onboarding-time-from-2-weeks-to-2-hours-a-platform-engineering-case-study-2/)
+I write about platform engineering, blockchain infrastructure, security, and the parts of AI that change how engineers build and operate systems.
 
-[2] How Generative AI is Redefining Self-Service Capabilities in IDPs. Platform Engineering, March 2025. On using GenAI to compress developer onboarding inside internal developer platforms. [article](https://platformengineering.com/features/how-generative-ai-is-redefining-self-service-capabilities-in-idps/)
-
-[3] Security as a Mindset: How to Embed Security Into Cloud-Native Infrastructure Design. Platform Engineering, February 2025. Argues security should be a design primitive, not a late-stage audit step. [article](https://platformengineering.com/features/security-as-a-mindset-how-to-embed-security-into-cloud-native-infrastructure-design/)
-
-[4] Blockchains Are Fast Enough for Finance. What About Cross-Chain Settlement? Substack, April 2026. A response to a16z crypto's predictability thesis, arguing cross-chain settlement, not throughput, is the next real bottleneck for on-chain finance. [article](https://samuelarogbonlo451608.substack.com/p/blockchains-are-fast-enough-for-finance)
-
-[5] Why Adaptor Signatures Are Difficult to Integrate in Ethereum. Substack, November 2025. Why elegant Bitcoin cryptography breaks on Ethereum's account model, and what that means for atomic swaps.
-
-[6] Bare Metal vs Public Cloud For Blockchain Services. Medium, November 2024. Operator-grade take on infrastructure tradeoffs for production blockchain workloads. [article](https://samuelarogbonlo.medium.com/bare-metal-vs-public-cloud-for-blockchain-services-6874a3bfe95c)
-
-[7] Demystifying Blockchain Infrastructure: Running Validators and Nodes. Medium, November 2024. A field guide from five years of running validator infrastructure in production. [article](https://samuelarogbonlo.medium.com/demystifying-blockchain-infrastructure-running-validators-and-nodes-0c2035560c41)
-
-[8] Securing libp2p Keys, Keypairs, and Key Hashes In Web3. Personal blog, February 2024. On key management and identity primitives in peer-to-peer networks. [article](https://samuelarogbonlo.hashnode.dev/securing-libp2p-keys-keypairs-and-key-hashes-in-web3-cm5l71dsi000c09l65jvcbhbj)
+| Date | Article | Publication |
+| --- | --- | --- |
+| Mar 2025 | [How We Reduced Onboarding Time From 2 Weeks to 2 Hours: A Platform Engineering Case Study](https://platformengineering.com/features/how-we-reduced-onboarding-time-from-2-weeks-to-2-hours-a-platform-engineering-case-study/). **Selected for Platform Engineering's Best of 2025 series.** [Best of 2025](https://platformengineering.com/features/how-we-reduced-onboarding-time-from-2-weeks-to-2-hours-a-platform-engineering-case-study-2/) | Platform Engineering |
+| Mar 2025 | [How Generative AI is Redefining Self-Service Capabilities in IDPs](https://platformengineering.com/features/how-generative-ai-is-redefining-self-service-capabilities-in-idps/). On using GenAI to compress developer onboarding inside internal developer platforms. | Platform Engineering |
+| Feb 2025 | [Security as a Mindset: How to Embed Security Into Cloud-Native Infrastructure Design](https://platformengineering.com/features/security-as-a-mindset-how-to-embed-security-into-cloud-native-infrastructure-design/). Argues security should be a design primitive, not a late-stage audit step. | Platform Engineering |
+| Apr 2026 | [Blockchains Are Fast Enough for Finance. What About Cross-Chain Settlement?](https://samuelarogbonlo451608.substack.com/p/blockchains-are-fast-enough-for-finance). A response to a16z crypto's predictability thesis, arguing cross-chain settlement, not throughput, is the next real bottleneck for on-chain finance. | Substack |
+| Nov 2025 | Why Adaptor Signatures Are Difficult to Integrate in Ethereum. Why elegant Bitcoin cryptography breaks on Ethereum's account model, and what that means for atomic swaps. | Substack |
+| Nov 2024 | [Bare Metal vs Public Cloud For Blockchain Services](https://samuelarogbonlo.medium.com/bare-metal-vs-public-cloud-for-blockchain-services-6874a3bfe95c). Operator-grade take on infrastructure tradeoffs for production blockchain workloads. | Medium |
+| Nov 2024 | [Demystifying Blockchain Infrastructure: Running Validators and Nodes](https://samuelarogbonlo.medium.com/demystifying-blockchain-infrastructure-running-validators-and-nodes-0c2035560c41). A field guide from five years of running validator infrastructure in production. | Medium |
+| Feb 2024 | [Securing libp2p Keys, Keypairs, and Key Hashes In Web3](https://samuelarogbonlo.hashnode.dev/securing-libp2p-keys-keypairs-and-key-hashes-in-web3-cm5l71dsi000c09l65jvcbhbj). On key management and identity primitives in peer-to-peer networks. | Personal blog |
 
 ## Projects
 
